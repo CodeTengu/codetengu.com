@@ -1,0 +1,50 @@
+#sidebar nav a {
+  font-size: 1.3em;
+  /* text-transform: none; */
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0;
+}
+
+#intro p {
+  font-size: 2.25em;
+  margin-bottom: 1em;
+}
+
+.spotlights > section > .content {
+  width: 60em;
+}
+
+.spotlights > section:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#footer p {
+  margin-bottom: 1em;
+}
+
+.copyleft {
+  display: inline-block;
+  text-align: right;
+  margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+@media screen and (max-width: 736px) {
+  .features section {
+    padding: 3.5em 3em 1em 7em ;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .features section {
+    padding: 3.5em 3em 1em 7em ;
+  }
+}
