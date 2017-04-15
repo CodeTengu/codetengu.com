@@ -13,10 +13,6 @@ h1 {
   margin-bottom: 1em;
 }
 
-.spotlights > section:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 #footer p {
   margin-bottom: 1em;
 }
